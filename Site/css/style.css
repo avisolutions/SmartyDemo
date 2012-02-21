@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	margin: 0px;
+	background-color: #71B143;
+	outline: none;
+}
+
+a, a:hover, a:visited {
+	text-decoration: none;
+	outline: none;
+	color: #000000;
+}
+
+p {
+	margin: 0px;
+	background-color: #FFFFFF;
+}
+
+.content {
+	padding: 10px;
+	margin: 150px auto;
+	width: 940px;
+	height: 260px;
+	background-color: #FFFFFF;
+	border: solid 2px #000000;
+}
+
+.article {
+	margin: 0px;
+}
+.author {
+	color: #008000;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.pager {
+	margin: 0px;
+	padding: 10px;
+	float: right;
+	clear: both;
+	background-color: #B7B7B7;
+	width: 920px;
+	font-size: 16px;
+	border: solid 1px #8B8B8B;
+}
+.pager ul {
+	margin: 0px;
+	float: right;
+}
+
+.pager li {
+	float: left;
+	margin: 0px 10px;
+	list-style: none;
+}
+.act, a.act, .pager li .act {
+	color: #008000;
+	font-weight: bold;
+	outline: none;
+}
